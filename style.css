@@ -1,0 +1,90 @@
+:root {
+    --first-color: darkblue;
+    --second-color: #ffa500;
+    --third-color: #fcfcfc;
+    --fourth-color: #4d4d4d;
+}
+
+body {
+    background: var(--first-color);
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+}
+
+#container {
+    height: 500px;
+    width: 360px;
+    margin: 100px auto;
+    background: var(--third-color);
+    border-radius: 25px;
+}
+
+#totalTips {
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--second-color);
+    margin-top: 5px;
+    text-align: center;
+}
+
+.title {
+    background: var(--second-color);
+    color: var(--third-color);
+    padding: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tipsForm {
+    display: center justify-center;
+    padding: 20px 40px;
+}
+
+.formInput {
+    background: var(--third-color);
+    width: 40px;
+    padding: 5px;
+    border: 1px solid var(--fourth-color);
+    border-radius: 5px;
+}
+
+.formInput:hover {
+    border: 1px solid var(--second-color);
+    outline: none;
+}
+
+.formSelect {
+    width: 180px;
+    padding: 5px;
+    border: 1px solid var(--fourth-color);
+    border-radius: 5px;
+}
+
+.formSelect:hover {
+    border: 1px solid var(--second-color);
+    outline: none;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--third-color);
+    display: block;
+    padding: 10px;
+    margin: auto;
+    margin-top: 40px;
+    background: var(--second-color);
+    border: 0px;
+    border-radius:5px;
+}
+
+.formSubmit:hover {
+    border: 1px solid var(--second-color);
+    background: var(--third-color);
+    color: var(--second-color);
+}
