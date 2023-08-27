@@ -13,7 +13,7 @@ Projeto desenvolvido para praticar conceitos de Javascript <br/>
 <br>
 
 <p align="center">
-  <img alt="Projeto - Calculadora de gorjetas" src=".assets/banner.png" width="100%">
+  <img alt="Projeto - Calculadora de gorjetas" src="cover.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
